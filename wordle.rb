@@ -1,9 +1,8 @@
 LETTER_LENGTH = 5
+WORDS = ["crane", "train", "apple", "ghost", "flame", "stone", "pride", "blend", "shelf", "grasp"]
 
 def set_answer
-  file_str = File.read("words.txt")
-  arr = file_str.split("\n")
-  arr[rand(arr.length)]
+  WORDS.sample
 end
 
 def check_answer_and_return_hint(answer, guess)
