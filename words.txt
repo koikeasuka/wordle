@@ -1,0 +1,10 @@
+crane
+train
+apple
+ghost
+flame
+stone
+pride
+blend
+shelf
+grasp
