@@ -35,13 +35,13 @@ end
 
 answer = set_answer
 
-6.times do |i|
+5.times do |i|
   try_times = i + 1
 
   guess = ""
 
   loop do
-    print "Guess #{try_times}/6: "
+    print "Guess #{try_times}/5: "
     guess = gets.chomp
     errors = validate_entry(guess)
     if errors.any?
